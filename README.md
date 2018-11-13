@@ -1,7 +1,9 @@
 # ReactWeatherAppForecast
 Get 5 days weather report of any city
+Hosted on Heroku cloud, directly accessible from following url
+https://pure-mesa-86580.herokuapp.com/
 
-clone - https://github.com/vikbi/React-weather-app-forecast.git
+git clone - https://github.com/vikbi/React-weather-app-forecast.git
 
 do `npm install` to load required dependancies
 
