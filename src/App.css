@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('Assets/weather.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 30rem) {
+  .weather-card__grid {
+      display: grid;
+      grid-template-columns: max-content;
+      justify-content: center;
+      margin-top: 15%;
+  }
+}
+
+.weather_data {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  transition: all ease-in-out 1s;
+  
+}
+.weather_tab span {
+  font-weight: normal;
+  color: chocolate;
+}
+
+.weather_tab{
+  padding: 8px;
+    margin: 4px;
+    text-align: left;
+    background-color: #fde5c2 !important;
+}
+.error{
+  color: red;
+  padding: 10px;
+  background-color: #eee;
+}
