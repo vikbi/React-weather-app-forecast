@@ -18,7 +18,7 @@ function SubmitButton(props) {
   const { classes } = props;
   return (
     <div>
-      <Button  type="submit" className={classes.button} variant="raised" color="primary">
+      <Button  type="submit" className={"testButton"} variant="raised" color="primary">
           Forecast
         <Icon className={classes.rightIcon}>send</Icon>
       </Button>

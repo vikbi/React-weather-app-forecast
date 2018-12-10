@@ -5,7 +5,7 @@ import  SubmitButton from "./Submit";
 
 const Form = props => (
   <Paper style={{ padding:15, minHeight:'20vh' }}>
-    <form onSubmit={props.getWeather}>
+    <form className={"weather"} onSubmit={props.getWeather}>
         <FormControl >
           <InputLabel htmlFor="city">City</InputLabel>
           <Input id="city" type="text" name="city" placeholder="City" />
